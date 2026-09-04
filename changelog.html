@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What's New &mdash; Lift Progress</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0D1117;
+    --bg-raised: #141B24;
+    --bg-raised-2: #1B2530;
+    --blue-bright: #01AFFD;
+    --blue-primary: #005EFC;
+    --blue-deep: #012FCA;
+    --white: #FFFFFF;
+    --gray: #7C8791;
+    --gray-dim: #4A5560;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--white);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 32px 20px 64px;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  header img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.6em;
+    letter-spacing: 0.02em;
+    line-height: 1.05;
+    text-align: center;
+    margin: 28px 0 10px;
+  }
+
+  .lede {
+    text-align: center;
+    color: var(--gray);
+    font-size: 1.02em;
+    line-height: 1.55;
+    max-width: 380px;
+    margin: 0 auto 36px;
+  }
+
+  .back-link {
+    display: block;
+    text-align: center;
+    color: var(--blue-bright);
+    font-weight: 600;
+    font-size: 0.92em;
+    text-decoration: none;
+    margin-bottom: 36px;
+  }
+
+  section {
+    margin-bottom: 36px;
+  }
+
+  h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.4em;
+    letter-spacing: 0.01em;
+    margin: 0 0 14px;
+  }
+
+  .whats-new {
+    border-left: 2px solid var(--bg-raised-2);
+    padding-left: 16px;
+  }
+
+  .whats-new .date {
+    color: var(--gray);
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 28px 0 4px;
+  }
+
+  .whats-new .date:first-child {
+    margin-top: 0;
+  }
+
+  .whats-new .subsection {
+    font-weight: 700;
+    font-size: 0.78em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--white);
+    margin: 12px 0 6px;
+  }
+
+  .whats-new ul {
+    margin: 0;
+    padding-left: 18px;
+    color: #D6DBE1;
+    font-size: 0.92em;
+    line-height: 1.6;
+  }
+
+  footer {
+    text-align: center;
+    color: var(--gray-dim);
+    font-size: 0.8em;
+    margin-top: 48px;
+  }
+
+  footer a {
+    color: var(--gray);
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header>
+    <img src="banner.png" alt="Lift Progress">
+  </header>
+
+  <h1>What's New</h1>
+  <p class="lede">Every update to Lift Progress, newest first.</p>
+
+  <a href="get.html" class="back-link">&larr; Back to install / update the app</a>
+
+  <section>
+    <div class="whats-new">
+      <div class="date">September 3, 2026</div>
+      <div class="subsection">New</div>
+      <ul>
+        <li>Guided setup on first launch &mdash; pick your bar weight and plate inventory in a couple taps instead of configuring everything by hand</li>
+        <li>Optional manual progression mode, for lifters who don't want weight auto-added every session</li>
+        <li>Rack pin height tracking, so you don't have to remember or recheck where you set the rack each session</li>
+        <li>Color-coded log &mdash; today's workout in red, completed in blue, planned in white, so it's easy to see what's next at a glance</li>
+        <li>Bulk import &mdash; bring in past workout history from a spreadsheet instead of entering it one session at a time</li>
+      </ul>
+      <div class="subsection">Fixed</div>
+      <ul>
+        <li>Several iOS display issues at larger accessibility text sizes</li>
+        <li>iOS back-button and date-picker issues in the New Workout flow</li>
+        <li>Backdating an older workout out of order no longer produces a confusing weight suggestion</li>
+      </ul>
+
+      <div class="date">September 1, 2026</div>
+      <div class="subsection">New</div>
+      <ul>
+        <li>First testing build &mdash; workout logging, warm-up ladders, plate calculator, progress tracking, and rest timer</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    Questions? <a href="mailto:david@dbfinancialcoaching.com">david@dbfinancialcoaching.com</a><br>
+    <a href="get.html">Get the App</a> &middot; <a href="index.html">Privacy Policy</a>
+  </footer>
+
+</div>
+
+</body>
+</html>
